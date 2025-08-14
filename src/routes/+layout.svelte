@@ -10,9 +10,9 @@
 	let { children } = $props();
 
 	const stuff = {
-		title: `IC-Best Link Telecom Corporation | Enterprise ICT Solutions`,
-		desc: `A trusted Filipino ICT provider delivering unified communication systems, networking, and robust end-to-end solutions as well as quality products & services.`,
-		image: `https://www.icbestlink.com/featured-image.png`
+		title: `Marci Metzger Homes - Real Estate Agent, Real Estate, Realtor`,
+		desc: `Marci Metzger Homes - Pahrump, NV - Over two decades in real estate. Licensed Broker in Seattle, now serving Southern Nevada as Pahrump's top real estate agent.`,
+		image: `https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/mtn%20falls%20pond.jpg`
 	};
 	let url = $derived(page.url);
 </script>
@@ -25,8 +25,8 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content={stuff?.title} />
 	<meta property="og:description" content={stuff?.desc} />
-	<meta property="og:url" content="https://www.icbestlink.com/" />
-	<meta property="og:site_name" content="IC-Best Link Telecom Corporation" />
+	<meta property="og:url" content="https://marcimetzger.com/" />
+	<meta property="og:site_name" content="Marci Metzger Homes" />
 	<meta property="og:image" content={stuff?.image} />
 	<meta property="og:image:width" content="800" />
 	<meta property="og:image:height" content="450" />
